@@ -1,0 +1,159 @@
+/* #center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} */
+
+#margin-for-ptag{
+ margin-left: 38%;   
+font-size: 25px;
+}
+
+
+
+
+/* #about:hover > .white { background-color: yellow; } */
+/* #about:hover ~ .white { background-color: yellow; } */
+/* #about:hover + .white { background-color: yellow; } */
+/* #about:hover  .white { background-color: yellow; } */
+
+.card{
+    
+    border: none !important;
+}
+#about-me-text{
+    padding: 12.5% 15px 15px 15px;
+}
+#grid {
+    display: grid;
+    gap: 2.5em;    ;
+    /* grid-auto-flow: revert; */
+    
+    grid-template-columns: repeat(3, 400px);
+    justify-content: center;
+    justify-items: center;
+  }
+#more-about-me-text{
+    padding: 35px;
+}
+#box{
+    /* position: absolute; */
+    min-height: 80vh;
+    width: 100%;
+    background-color: yellow;
+}
+@media screen and (max-width: 1203px) {
+
+    #grid{
+      display: grid;
+      grid-auto-flow: revert;
+       grid-template-columns: repeat(2, 400px);
+      justify-content: center;
+      justify-items: center; 
+     /* padding-top: 7em; */
+    }
+  
+    
+  }
+
+  @media screen and (max-width: 871px) {
+
+    #grid{
+      display: grid;
+      grid-auto-flow: revert;
+       grid-template-columns: repeat(1, 400px);
+      justify-content: center;
+      justify-items: center; 
+     /* padding-top: 7em; */
+    }
+  
+    
+  }
+
+  #container:hover > #cube { background-color: yellow; }
+
+  #card1:hover > #img1{
+    transform: scale(1.02);
+    transition: 500ms;
+    box-shadow: 0 7px 30px -10px rgba(150,170,180,0.5);
+
+
+  }
+
+
+
+  #card2:hover > #img2{
+    transform: scale(1.02);
+    transition: 500ms;
+    box-shadow: 0 7px 30px -10px rgba(150,170,180,0.5);
+
+
+  }
+
+
+
+  #card3:hover > #img3{
+    transform: scale(1.02);
+    transition: 500ms;
+    box-shadow: 0 7px 30px -10px rgba(150,170,180,0.5);
+
+
+  }
+
+
+  
+  #card4:hover > #img4{
+    transform: scale(1.02);
+    transition: 500ms;
+    box-shadow: 0 7px 30px -10px rgba(150,170,180,0.5);
+
+
+  }
+
+
+  #card5:hover > #img5{
+    transform: scale(1.02);
+    transition: 500ms;
+    box-shadow: 0 7px 30px -10px rgba(150,170,180,0.5);
+
+
+  }
+
+
+
+  #card6:hover > #img6{
+    transform: scale(1.02);
+    transition: 500ms;
+    box-shadow: 0 7px 30px -10px rgba(150,170,180,0.5);
+
+
+  }
+
+
+
+  #card7:hover > #img7{
+    transform: scale(1.02);
+    transition: 500ms;
+    box-shadow: 0 7px 30px -10px rgba(150,170,180,0.5);
+
+
+  }
+
+
+  
+  #card8:hover > #img8{
+    transform: scale(1.02);
+    transition: 500ms;
+    box-shadow: 0 7px 30px -10px rgba(150,170,180,0.5);
+
+
+  }
+
+  #card9:hover > #img9{
+    transform: scale(1.02);
+    transition: 500ms;
+    box-shadow: 0 7px 30px -10px rgba(150,170,180,0.5);
+
+
+  }
+
